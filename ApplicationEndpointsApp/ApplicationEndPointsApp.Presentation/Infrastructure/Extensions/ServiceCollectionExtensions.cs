@@ -18,7 +18,16 @@ public static class ServiceCollectionExtensions
 
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         services.AddScoped<IUrlRepository, UrlRepository>();
+        services.AddScoped<ISlideApplicationRepository, SlideApplicationRepository>();
+        services.AddScoped<ISlideEnvironmentRepository, SlideEnvironmentRepository>();
+        services.AddScoped<ISectionRepository, SectionRepository>();
+        services.AddScoped<IAppHealthHistoryRepository, AppHealthHistoryRepository>();
+
         services.AddScoped<IUrlService, UrlService>();
+        services.AddScoped<ISlideApplicationService, SlideApplicationService>();
+        services.AddScoped<ISlideEnvironmentService, SlideEnvironmentService>();
+        services.AddScoped<ISectionService, SectionService>();
+        services.AddScoped<IAppHealthHistoryService, AppHealthHistoryService>();
 
         return services;
     }
