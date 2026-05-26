@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndPointsApp.Presentation\\ApplicationEndpointsApp.Presentation.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\ApplicationEndpointsApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\ApplicationEndpointsApp.Business.csproj",
+        "projectName": "ApplicationEndpointsApp.Business",
+        "projectPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\ApplicationEndpointsApp.Business.csproj",
+        "packagesPath": "C:\\Users\\RaghavendraVankadari\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RaghavendraVankadari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\ApplicationEndpointsApp.Data.csproj": {
+                "projectPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\ApplicationEndpointsApp.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\ApplicationEndpointsApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\ApplicationEndpointsApp.Data.csproj",
+        "projectName": "ApplicationEndpointsApp.Data",
+        "projectPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\ApplicationEndpointsApp.Data.csproj",
+        "packagesPath": "C:\\Users\\RaghavendraVankadari\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RaghavendraVankadari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndPointsApp.Presentation\\ApplicationEndpointsApp.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndPointsApp.Presentation\\ApplicationEndpointsApp.Presentation.csproj",
+        "projectName": "ApplicationEndpointsApp.Presentation",
+        "projectPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndPointsApp.Presentation\\ApplicationEndpointsApp.Presentation.csproj",
+        "packagesPath": "C:\\Users\\RaghavendraVankadari\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndPointsApp.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\RaghavendraVankadari\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\ApplicationEndpointsApp.Business.csproj": {
+                "projectPath": "C:\\Code\\ApplicationEndpointsApp\\ApplicationMonitoringAPI\\ApplicationEndpointsApp\\ApplicationEndpointsApp.Business\\ApplicationEndpointsApp.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -14,21 +14,11 @@ public static class ServiceCollectionExtensions
         var connectionString = configuration.GetConnectionString("DefaultConnection");
 
         services.AddDbContext<AppDbContext>(options =>
-            options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+            options.UseNpgsql(connectionString));
 
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-        services.AddScoped<IApplicationEndpointRepository, ApplicationEndpointRepository>();
-        services.AddScoped<IApplicationEndpointsService, ApplicationEndpointService>();
-
-        // Todo add logging and monitoring
-
-        // Todo add cors and rate limiting
-        // services.AddCors();
-        // services.AddRateLimiter();
-
-        // Todo add Authentication and Authorization
-        // services.AddAuthentication();
-        // services.AddAuthorization();
+        services.AddScoped<IUrlRepository, UrlRepository>();
+        services.AddScoped<IUrlService, UrlService>();
 
         return services;
     }

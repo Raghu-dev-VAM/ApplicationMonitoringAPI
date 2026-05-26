@@ -22,7 +22,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task<T?> GetByIdAsync(long id, CancellationToken cancellationToken)
     {
-        return await _dbSet.FindAsync(new object[] { (int)id }, cancellationToken);
+        return await _dbSet.FindAsync(new object[] { id }, cancellationToken);
     }
 
     public async Task<long> AddAsync(T entity, CancellationToken cancellationToken)
@@ -40,7 +40,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task<bool> DeleteAsync(long id, CancellationToken cancellationToken)
     {
-        var entity = await _dbSet.FindAsync(new object[] { (int)id }, cancellationToken);
+        var entity = await _dbSet.FindAsync(new object[] { id }, cancellationToken);
         if (entity is null) return false;
         _dbSet.Remove(entity);
         await _context.SaveChangesAsync(cancellationToken);
